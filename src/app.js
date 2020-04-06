@@ -1,3 +1,8 @@
+import "./styles/style.css";
+import "./component/app-bar.js";
+
+
+
 
 $(document).ready(function(){
     $('#searchUser').on('keyup', function(e){
