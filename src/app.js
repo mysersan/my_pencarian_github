@@ -1,6 +1,3 @@
-
-const port = process.env.PORT
-
 import "./styles/style.css";
 import "./component/app-bar.js";
 
