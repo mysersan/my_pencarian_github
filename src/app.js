@@ -1,3 +1,8 @@
+const port = process.env.port || 4000;
+app.Listen(port, function(){
+    console.log('Server Starts on ${port}');
+});
+
 import "./styles/style.css";
 import "./component/app-bar.js";
 

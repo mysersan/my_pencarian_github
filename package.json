@@ -4,8 +4,8 @@
   "main": "app.js",
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js"
-
+    "build": "webpack --config webpack.prod.js",
+    "start"; "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "regenerator-runtime": "^0.13.5"
   },
   "description": ""
